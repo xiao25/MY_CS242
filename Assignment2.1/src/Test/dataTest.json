@@ -1,0 +1,113 @@
+
+{
+	"data sources" : [
+		"http://www.gcmap.com/" ,
+		"http://www.theodora.com/country_digraphs.html" ,
+		"http://www.citypopulation.de/world/Agglomerations.html" ,
+		"http://www.mongabay.com/cities_urban_01.htm" ,
+		"http://en.wikipedia.org/wiki/Urban_agglomeration" ,
+		"http://www.worldtimezone.com/standard.html"
+	] , 
+	"metros" : [
+		 {
+			"code" : "BOG" ,
+			"name" : "Bogota" ,
+			"country" : "CO" ,
+			"continent" : "South America" ,
+			"timezone" : -5 ,
+			"coordinates" : {"N" : 5, "W" : 74} ,
+			"population" : 8600000 ,
+			"region" : 1
+
+		} ,
+        {
+			"code" : "ESS" ,
+			"name" : "Essen" ,
+			"country" : "DE" ,
+			"continent" : "Europe" ,
+			"timezone" : 1 ,
+			"coordinates" : {"N" : 51, "E" : 7} ,
+			"population" : 589900 ,
+			"region" : 3
+		} , {
+			"code" : "HKG" ,
+			"name" : "Hong Kong" ,
+			"country" : "CH" ,
+			"continent" : "Asia" ,
+			"timezone" : 8 ,
+			"coordinates" : {"N" : 22, "E" : 114} ,
+			"population" : 7050000 ,
+			"region" : 4
+		},
+        {
+			"code" : "TYO" ,
+			"name" : "Tokyo" ,
+			"country" : "JP" ,
+			"continent" : "Asia" ,
+			"timezone" : 9 ,
+			"coordinates" : {"N" : 36, "E" : 140} ,
+			"population" : 34000000 ,
+			"region" : 4
+		} , {
+			"code" : "TPE" ,
+			"name" : "Taipei" ,
+			"country" : "TW" ,
+			"continent" : "Asia" ,
+			"timezone" : 8 ,
+			"coordinates" : {"N" : 25, "E" : 121} ,
+			"population" : 6800000 ,
+			"region" : 4
+		}, {
+			"code" : "MEX" ,
+			"name" : "Mexico City" ,
+			"country" : "MX" ,
+			"continent" : "North America" ,
+			"timezone" : -6 ,
+			"coordinates" : {"N" : 19, "W" : 99} ,
+			"population" : 23400000 ,
+			"region" : 1
+		} ,{
+			"code" : "SHA" ,
+			"name" : "Shanghai" ,
+			"country" : "CH" ,
+			"continent" : "Asia" ,
+			"timezone" : 8 ,
+			"coordinates" : {"N" : 31, "E" : 121} ,
+			"population" : 18400000 ,
+			"region" : 4
+		} ,{
+			"code" : "LON" ,
+			"name" : "London" ,
+			"country" : "UK" ,
+			"continent" : "Europe" ,
+			"timezone" : 0 ,
+			"coordinates" : {"N" : 52, "W" : 0} ,
+			"population" : 12400000 ,
+			"region" : 3
+		}
+	] ,
+	"routes" : [
+
+		 {
+			"ports" : ["HKG" , "TPE"] ,
+			"distance" : 807
+		},
+
+        {
+			"ports" : ["SHA" , "TPE"] ,
+			"distance" : 678
+		},
+        {
+			"ports" : ["MEX" , "BOG"] ,
+			"distance" : 3158
+		} ,
+         {
+			"ports" : ["LON" , "ESS"] ,
+			"distance" : 494
+		} ,
+        {
+			"ports" : ["SHA" , "TYO"] ,
+			"distance" : 1782
+		}
+	]
+}
